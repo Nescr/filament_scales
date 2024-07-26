@@ -19,7 +19,8 @@ assemble all the electronics according to the diagram provided in the "Элек�
 3) go to arduino ide and install the libraries
 
 ![Image alt](https://github.com/Nescr/image_for_readme/blob/main/photo_for_filament/Adafruit_SSD1306.png)
-
+![Image alt](https://github.com/Nescr/image_for_readme/blob/main/photo_for_filament/GyverEncoder.png)
+![Image alt](https://github.com/Nescr/image_for_readme/blob/main/photo_for_filament/HX711.png)
 
 # Инструкция на русском
 
@@ -40,3 +41,7 @@ assemble all the electronics according to the diagram provided in the "Элек�
 2) Cкачайте и утановите драйвер ch340: https://wch-ic.com/downloads/CH341SER_EXE.html
 
 3) зайдите в arduino ide и установите библиотеки
+
+![Image alt](https://github.com/Nescr/image_for_readme/blob/main/photo_for_filament/Adafruit_SSD1306.png)
+![Image alt](https://github.com/Nescr/image_for_readme/blob/main/photo_for_filament/GyverEncoder.png)
+![Image alt](https://github.com/Nescr/image_for_readme/blob/main/photo_for_filament/HX711.png)
