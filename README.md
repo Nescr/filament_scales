@@ -12,9 +12,13 @@ assemble all the electronics according to the diagram provided in the "Элек�
 
 # If this is your first time picking up Arduino
 
-1) download arduino ide from the official website: https://www.arduino.cc/en/software
+1) download and install arduino ide from the official website: https://www.arduino.cc/en/software
 
-2) download the ch340 driver: https://wch-ic.com/downloads/CH341SER_EXE.html
+2) download and install the ch340 driver: https://wch-ic.com/downloads/CH341SER_EXE.html
+
+3) go to arduino ide and install the libraries
+
+![Image alt](https://github.com/Nescr/image_for_readme/blob/main/photo_for_filament/Adafruit_SSD1306.png)
 
 
 # Инструкция на русском
@@ -31,6 +35,8 @@ assemble all the electronics according to the diagram provided in the "Элек�
 
 # Если вы никогда не работали с ардуино
 
-1) Cкачайте arduino ide с официального сайта: https://www.arduino.cc/en/software
+1) Cкачайте и установите arduino ide с официального сайта: https://www.arduino.cc/en/software
 
-2) Cкачайте драйвер ch340: https://wch-ic.com/downloads/CH341SER_EXE.html
+2) Cкачайте и утановите драйвер ch340: https://wch-ic.com/downloads/CH341SER_EXE.html
+
+3) зайдите в arduino ide и установите библиотеки
