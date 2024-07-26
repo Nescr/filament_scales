@@ -4,7 +4,7 @@ To assemble the device you will need:
 1) Strain gauge 5 kilograms 
 2) HX711
 3) Arduino nano (or any other)
-4) I2C oled display 128x64
+4) I2C oled display 128x64 0.96
 5) encoder
 
 assemble all the electronics according to the diagram provided in the "Электроника" folder
@@ -23,7 +23,7 @@ assemble all the electronics according to the diagram provided in the "Элек�
 1) Тензодатчик 5 кг 
 2) HХ711
 3) Ардуино нано (или любой другой)
-4) I2C OLED-дисплей 128х64
+4) I2C OLED-дисплей 128х64 0.96
 5) энкодер
 
 Соберите всю электронику по схеме, представленной в папке «Электроника"
