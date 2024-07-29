@@ -20,7 +20,7 @@ HX711 scale;
 
 Encoder enc1(S1, S2, KEY);
 
-float calibration_factor = -10.57;  // СЮДА ВПИСАТЬ ЗНАЧЕНИЕ ИЗ ПЕРВОГО КОДА!!!!!!!!!!!
+float calibration_factor = -10.57;  // СЮДА ВПИСАТЬ ЗНАЧЕНИЕ ИЗ МОНИТОРА ПОРТА ПЕРВОГО КОДА!!!!!!!!!!!
 float units;                      
 float ounces;                      
 
