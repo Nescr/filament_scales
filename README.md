@@ -10,7 +10,7 @@ To assemble the device you will need:
 assemble all the electronics according to the diagram provided in the "Электроника" folder
 
 
-# If this is your first time picking up Arduino
+## If this is your first time picking up Arduino
 
 1) download and install arduino ide from the official website: https://www.arduino.cc/en/software
 2) download and install the ch340 driver: https://wch-ic.com/downloads/CH341SER_EXE.html
@@ -21,7 +21,7 @@ assemble all the electronics according to the diagram provided in the "Элек�
 ![Image alt](https://github.com/Nescr/image_for_readme/blob/main/photo_for_filament/HX711.png)
 
 
-# Flashing arduino
+## Flashing arduino
 
 1) Open the file "find_calibration_factor", find and enter in "float weight_of_standard = 950;" weight value (instead of 950), which you know exactly in grams
 2) Upload the sketch with the corrected values, restart the device and wait 2 seconds, put on the strain gauge the weight you indicated in the previous paragraph. The calibration factor value will soon appear in the port monitor
@@ -42,7 +42,7 @@ Congratulations, if you did everything right, you should have succeeded!
 Соберите всю электронику по схеме, представленной в папке «Электроника"
 
 
-# Если вы никогда не работали с ардуино
+## Если вы никогда не работали с ардуино
 
 1) Cкачайте и установите arduino ide с официального сайта: https://www.arduino.cc/en/software
 2) Cкачайте и утановите драйвер ch340: https://wch-ic.com/downloads/CH341SER_EXE.html
@@ -53,7 +53,7 @@ Congratulations, if you did everything right, you should have succeeded!
 ![Image alt](https://github.com/Nescr/image_for_readme/blob/main/photo_for_filament/HX711.png)
 
 
-# Перепрошивка Arduino
+## Перепрошивка Arduino
 
 1) Откройте файл "find_calibration_factor", найдите и введите "float Weight_of_standard = 950;" значение веса (вместо 950), которое вы точно знаете в граммах
 2) Загрузите скетч с исправленными значениями, перезагрузите прибор и подождите 2 секунды, поставьте на тензодатчик тот груз, который вы указали в предыдущем пункте. Значение калибровочного коэффициента вскоре появится в мониторе порта.
