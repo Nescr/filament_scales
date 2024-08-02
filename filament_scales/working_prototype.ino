@@ -4,6 +4,9 @@
 #include <Adafruit_SSD1306.h> 
 #include "HX711.h"
 
+#include "GyverFilters.h"
+GFilterRA analog0;
+
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
 
@@ -42,6 +45,8 @@ void setup()
   scale.set_scale();
   scale.tare();
   scale.set_scale(calibration_factor);
+  analog0.setCoef(0.30);
+  analog0.setStep(50);
 }
 
 void loop() 
@@ -52,10 +57,13 @@ void loop()
     enc1.tick();
     disp_print_weight();
   }
+  display.clearDisplay(); 
+  display.setCursor(40, 20); 
+  display.print(value);  
+  display.display();
   while (!enc1.isClick())
   {
     enc1.tick();
-    currentMillis = millis();
     disp_print_bad_weight();
   }
   EEPROM.put(0, value);
@@ -83,14 +91,14 @@ void disp_print_bad_weight()
   if (enc1.isRight()) 
   {
     value += 5;
+    display.clearDisplay(); 
+    display.setCursor(40, 20); 
+    display.print(value);  
+    display.display();
   }
   if (enc1.isLeft()) 
   {
     value -= 5;
-  }
-  if (currentMillis - lastMillis >= 150) 
-  {
-    lastMillis = currentMillis;
     display.clearDisplay(); 
     display.setCursor(40, 20); 
     display.print(value);  
@@ -100,7 +108,7 @@ void disp_print_bad_weight()
 
 void disp_print_weight()
 {
-  if (currentMillis - lastMillis >= 200) 
+  if (currentMillis - lastMillis >= 100) 
   {
     lastMillis = currentMillis;
     units = scale.get_units();
